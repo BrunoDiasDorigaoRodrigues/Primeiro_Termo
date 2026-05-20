@@ -10,6 +10,25 @@
 # elif idade >= 16:
 #     print("Você não é de maior")
 
+#Melhorado
+# while True:
+#     entrada = input("Digite sua idade (ou 'sair' para encerrar):")
+
+#     if "sair":
+#         print("Encerrando o programa...")
+#     break
+    
+# try:
+#     idade = int(entrada)
+#     if idade >= 18:
+#         print("Você é maior de idade.")
+#     else:
+#         print("Você não é maior de idade")
+# except ValueError:
+#     print("Por favor, digite um número válido.")
+
+
+
 # 2. A Escrita Fiel
 # nome = "Mariana"
 # print("Seja bem-vinda, nome!")
@@ -17,6 +36,9 @@
 #Corrigido
 # nome = "Mariana"
 # print(f"Seja bem-vinda, {nome}!")
+
+#Melhorado 
+
 
 # 3. Falta de Espaço
 # numero = 10
@@ -86,8 +108,8 @@
 
 #Corrigido
 #  Objetivo: Mostrar na tela os números 1, 2, 3, 4 e 5.
-for i in range(5,1):
-    print(f"{i}")
+# for contagem in range(1,6):
+#     print(f"{contagem}")
 
 
 # 9. O Loop Eterno
@@ -95,10 +117,36 @@ for i in range(5,1):
 # while tentativas <= 3:
 # print("Tentando conectar...")
 # O código deveria parar após 3 tentativas
-# 
+
+#Corrigido
+# while True:
+
+
+
+
 # 10. A Senha Teimosa
 # O programa deve pedir a senha até que o usuário digite "python123"
 # senha = ""
 # while senha == "python123":
 # senha = input("Digite a senha secreta: ")
 # print("Acesso concedido!")
+
+#Corrigido
+# senha = input("Digite a senha secreta:")
+# print("Acesso Negado")
+# while senha == "python123":  
+#     print("Acesso concedido")
+#     break
+
+#Melhorado
+# senha = input("Digite a senha secreta:")
+# while senha == "python123" or senha == "Python123":
+#     print("Acesso concedido")
+#     break
+# print("Sistema finalizado")
+
+
+         
+   
+
+
